@@ -1,0 +1,5 @@
+if isfolder('vape/Voidware') then 
+    shared.vapewhitelist.get = function(self: table)
+        return 0, true
+    end;
+end;
